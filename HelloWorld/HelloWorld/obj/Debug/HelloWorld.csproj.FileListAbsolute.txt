@@ -1,0 +1,6 @@
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.csprojResolveAssemblyReference.cache
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Personal\Training\dotNetAndcSharp\HelloWorld\HelloWorld\obj\Debug\HelloWorld.pdb
