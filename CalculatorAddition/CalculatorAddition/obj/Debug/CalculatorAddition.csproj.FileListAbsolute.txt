@@ -1,0 +1,6 @@
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\bin\Debug\CalculatorAddition.exe.config
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\bin\Debug\CalculatorAddition.exe
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\bin\Debug\CalculatorAddition.pdb
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\obj\Debug\CalculatorAddition.csprojResolveAssemblyReference.cache
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\obj\Debug\CalculatorAddition.exe
+D:\Personal\Training\dotNetAndcSharp\CalculatorAddition\CalculatorAddition\obj\Debug\CalculatorAddition.pdb
