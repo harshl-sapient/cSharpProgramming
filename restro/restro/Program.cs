@@ -16,18 +16,33 @@ namespace restro
             //summerMenuItems.description = "Things u can eat";
             //summerMenuItems.price = 100;
             //Eatables
-            Menu summerMenu = new Menu();
-            summerMenu.name = "Indian collection";
+            //Menu summerMenu = new Menu();
+            //summerMenu.name = "Indian collection";
+            //summerMenu.addItems("Thali", "Thali can be more effecient", 100);
+            //summerMenu.addItems("Rajma chawal", "Single item", 60);
+            //summerMenu.addItems("Cholle chawal", "Single item", 60);
+
+            ////Drink menu
+            //Menu drinkable = new Menu();
+            //drinkable.name = "Mock tail";
+            //drinkable.addItems("Lemon", "Lemon drink", 120.5);
+            //drinkable.addItems("Mango", "Mango drink", 120.5);
+            //drinkable.addItems("Orange", "Orange drink", 120.5);
+
+            //Inheritance concept
+            disclaimer summerMenu = new disclaimer();
+            summerMenu.name = "Indian Collection";
             summerMenu.addItems("Thali", "Thali can be more effecient", 100);
             summerMenu.addItems("Rajma chawal", "Single item", 60);
             summerMenu.addItems("Cholle chawal", "Single item", 60);
+            summerMenu.disName = "Go to hospital. Can find way to hospital on reception";
 
-            //Drink menu
-            Menu drinkable = new Menu();
+            disclaimer drinkable = new disclaimer();
             drinkable.name = "Mock tail";
             drinkable.addItems("Lemon", "Lemon drink", 120.5);
             drinkable.addItems("Mango", "Mango drink", 120.5);
             drinkable.addItems("Orange", "Orange drink", 120.5);
+            drinkable.disName = "We are not responsible for your health";
         }
     }
 }
