@@ -50,7 +50,10 @@ namespace restro
                 MenuItems currentItem = summerMenu.items[x];
                 hungerOrder.items.Add(currentItem);
             }
-
+            foreach (MenuItems currentItem in drinkable.items)
+            {
+                hungerOrder.items.Add(currentItem);
+            }
 
         }
     }
