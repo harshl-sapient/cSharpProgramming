@@ -55,6 +55,9 @@ namespace restro
                 hungerOrder.items.Add(currentItem);
             }
 
+            Console.WriteLine("The total price order " + hungerOrder.totalPrice());
+            Console.ReadKey();
+
         }
     }
 }
