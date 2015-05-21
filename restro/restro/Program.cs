@@ -55,8 +55,19 @@ namespace restro
                 hungerOrder.items.Add(currentItem);
             }
 
-            Console.WriteLine("The total price order " + hungerOrder.totalPrice());
-            Console.ReadKey();
+            try
+            {
+                drinkable.addItems("Orange", "Orange drink", 0);
+            }
+            catch (Exception thrownException)
+            {
+                Console.WriteLine(thrownException.Message);
+                Console.ReadKey();
+            }
+            
+
+            //Console.WriteLine("The total price order " + hungerOrder.totalPrice());
+            //Console.ReadKey();
 
         }
     }

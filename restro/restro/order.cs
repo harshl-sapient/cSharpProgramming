@@ -9,17 +9,18 @@ namespace restro
     public class order 
     {
         public List<MenuItems> items = new List<MenuItems>();
-
-        public double calculatedPrice;
-
-        public double totalPrice()
+        public double totalPrice
         {
-            foreach (MenuItems item in items)
+            get
             {
-                calculatedPrice += item.price;
-            }
+                double calculatedPrice = 0;        
+                foreach (MenuItems item in items)
+                {
+                    calculatedPrice += item.price;
+                }
 
-            return calculatedPrice;
+                return calculatedPrice;
+            }
         }
     }
 }
