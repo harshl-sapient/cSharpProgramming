@@ -43,6 +43,15 @@ namespace restro
             drinkable.addItems("Mango", "Mango drink", 120.5);
             drinkable.addItems("Orange", "Orange drink", 120.5);
             drinkable.disName = "We are not responsible for your health";
+
+            //Now taking order - Lets assume everything is ordered by a hunger man
+            order hungerOrder = new order();
+            for (int x = 0; x < summerMenu.items.Count; x++) {
+                MenuItems currentItem = summerMenu.items[x];
+                hungerOrder.items.Add(currentItem);
+            }
+
+
         }
     }
 }

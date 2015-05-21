@@ -44,6 +44,7 @@
     <Compile Include="disclaimer.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuItems.cs" />
+    <Compile Include="order.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
