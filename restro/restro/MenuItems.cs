@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DinnerMenu
+namespace restro
 {
-    public class MenuItem
+    public class MenuItems
     {
-        public string Name;
-        public string Description;
+        public string name;
+        public string description;
         public double price;
     }
 }

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace DinnerMenu
 {
-    public class MenuItem
+    public class DrinkMenu : Menu
     {
-        public string Name;
-        public string Description;
-        public double price;
+        public string disclaimer;
     }
 }
